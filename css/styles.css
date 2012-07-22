@@ -36,6 +36,7 @@ h1 {
     left: 50%;
     top: 50%;
     margin: -240px 0px 0px -320px;
+    display: none;
 }
 
 #the_list {
@@ -50,21 +51,15 @@ h1 {
     margin: 4px 0 4px 0;
 }
 
-#address {
+#qr-code {
+    margin-top: 48px;
     float: right;
-    font-size: 16px;
+    font-size: 32px;
 }
 
-#address-icon {
-    font-size: 96px;
-    float: left;
-    margin-right: 16px;
-}
-
-#address-text {
-    display: block;
-    margin-top: 18px;
-    float: left;
-    text-shadow: 1px 1px 1px black;
-    width: 150px;
-}
+.gmail,.google-plus { color: #dc4b39; }
+.github { color: #ebebeb; }
+.twitter { color: #00acee; }
+.instagram { color: #a06a52; }
+.facebook { color: #4c68a1; }
+.linkedin { color: #449ac8; }
