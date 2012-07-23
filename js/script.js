@@ -18,7 +18,7 @@ function generate_items(){
         $('#the_list').append(str);
     }
     if(settings.Email) {
-        var str = '<li><a href="mailto:' + settings.Email + '"><i class="icon-envelope-alt gmail"></i> ' + settings.Email + '</a></li>';
+        var str = '<li><a href="mailto:' + settings.FirstName + '%20' + settings.LastName + '&lt;' + settings.Email + '&gt;"><i class="icon-envelope-alt gmail"></i> ' + settings.Email + '</a></li>';
         $('#the_list').append(str);
     }
     for(var item_index in settings.Items) {
