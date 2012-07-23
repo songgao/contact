@@ -13,12 +13,10 @@ a {
 
 h1 {
     font-family: Helvetica,Tahoma,Arial,Sans,Sans-serif;
-    padding-right: 0;
-    padding-left: 0;
     margin-left: 20px;
     float: left;
     font-weight: bold;
-    color: #000;
+    color: black;
     text-shadow: 0 2px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
@@ -45,10 +43,10 @@ h1 {
     margin: 0px;
 }
 
-
 #qr {
     display: none;
 }
+
 #the_list>li {
     list-style: none;
     font-family: Monaco, Consolas, Courier New, monospace;
@@ -62,3 +60,4 @@ h1 {
 }
 
 .gmail { color: #dc4b39; }
+.twitter { color: #00acee; }

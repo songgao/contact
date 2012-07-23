@@ -1,4 +1,4 @@
-It's a contact card made of pure `html + javascript + css`. Check out [this live demo](http://songgao.github.com/contact) hosted on GitHub Pages.
+It's an online contact card with QR-code generation for programmers, made of pure `html + javascript + css`. Check out [this live demo](http://songgao.github.com/contact) hosted on GitHub Pages.
 
 # How to Use
 

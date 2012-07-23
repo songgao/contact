@@ -13,12 +13,20 @@ function generate_items(){
     var name = settings.FirstName + ' ' + settings.LastName;
     $(document).attr('title', name);
     $('.title>h1').append(name);
-    if(settings.TEL) {
+    if(settings.TEL && settings.TEL != "") {
         var str = '<li><i class="icon-phone"></i> ' + settings.TEL + '</li>';
         $('#the_list').append(str);
     }
-    if(settings.Email) {
+    if(settings.Email && settings.Email != "") {
         var str = '<li><a href="mailto:' + settings.FirstName + '%20' + settings.LastName + '&lt;' + settings.Email + '&gt;"><i class="icon-envelope-alt gmail"></i> ' + settings.Email + '</a></li>';
+        $('#the_list').append(str);
+    }
+    if(settings.Twitter && settings.Twitter != "") {
+        var str = '<li><a href="https://twitter.com/' + settings.Twitter + '"><i class="icon-twitter twitter"></i> Twitter: ' + settings.Twitter + '</a></li>';
+        $('#the_list').append(str);
+    }
+    if(settings.GitHub && settings.GitHub != "") {
+        var str = '<li><a href="https://github.com/' + settings.GitHub + '"><i class="icon-github-sign"></i> GitHub: ' + settings.GitHub + '</a></li>';
         $('#the_list').append(str);
     }
     for(var item_index in settings.Items) {

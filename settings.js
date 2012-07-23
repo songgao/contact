@@ -10,23 +10,14 @@ var settings = {
     State:          'AL',
     ZIP:            '36849',
     Country:        'United States',
+    Twitter:        '__songgao__',
+    GitHub:         'songgao',
     Items:          [
-        {
-            icon: 'icon-twitter',
-            icon_color: '#00acee;',
-            href: 'https://twitter.com/__songgao__/',
-            text: '__songgao__',
-        },
         {
             icon: 'icon-camera',
             icon_color: '#a06a52;',
             href: 'http://web.stagram.com/n/__songgao__/?vm=grid',
             text: 'Instagram',
-        },
-        {
-            icon: 'icon-github-sign',
-            href: 'https://github.com/songgao',
-            text: 'GitHub',
         },
         {
             icon: 'icon-google-plus',
