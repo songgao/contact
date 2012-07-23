@@ -10,7 +10,9 @@ function generate_qr(){
 }
 
 function generate_items(){
-    $('.title>h1').append(settings.FirstName + ' ' + settings.LastName);
+    var name = settings.FirstName + ' ' + settings.LastName;
+    $(document).attr('title', name);
+    $('.title>h1').append(name);
     if(settings.TEL) {
         var str = '<li><i class="icon-phone"></i> ' + settings.TEL + '</li>';
         $('#the_list').append(str);
