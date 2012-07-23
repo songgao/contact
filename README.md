@@ -15,3 +15,4 @@ This stuff is enabled by following open source projects:
 * [`font-awesome`](http://fortawesome.github.com/Font-Awesome/)
 * [`jquery-fancybox`](http://fancyapps.com/fancybox/)
 * [`jquery-qrcode`](http://jeromeetienne.github.com/jquery-qrcode/)
+* [`twitter-bootstrap`](http://twitter.github.com/bootstrap/)
