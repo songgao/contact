@@ -12,6 +12,7 @@ var settings = {
     Country:        'United States',
     Twitter:        '__songgao__',
     GitHub:         'songgao',
+    GoogleAnalytics:'UA-33276203-1',
     Items:          [
         {
             icon: 'icon-camera',
