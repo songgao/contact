@@ -1,9 +1,9 @@
 var settings = {
     FirstName:      'Song',
     LastName:       'Gao',
-    Email:          'song.gao.beta@gmail.com',
+    Email:          'song@gao.io',
     TEL:            '+1(650)200-0915',
-    URL:            'http://songgao.github.com/contact',
+    URL:            'http://song.gao.io/',
     Street_1:       '3101 Shelby Center',
     Street_2:       'Auburn University',
     City:           'Auburn',
@@ -23,7 +23,7 @@ var settings = {
         {
             icon: 'icon-google-plus',
             icon_color: '#dc4b39;',
-            href: 'https://plus.google.com/115891677639688078840/about',
+            href: 'https://plus.google.com/117059279935561636925/about',
             text: 'Google Plus',
         },
         {
