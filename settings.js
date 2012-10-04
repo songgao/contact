@@ -12,8 +12,9 @@ var settings = {
     Country:        'United States',
     Twitter:        '__songgao__',
     GitHub:         'songgao',
-    Tent:           'https://songgao.tent.is/profile',
     GoogleAnalytics:'UA-35062219-1',
+    Tent:           'https://songgao.tent.is/tent/profile',
+    TentPage:       'https://songgao.tent.is/profile',
     Items:          [
     {
         icon: 'icon-camera',
