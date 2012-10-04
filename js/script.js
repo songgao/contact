@@ -25,7 +25,7 @@ function generate_items(){
     }
     if(settings.Tent && settings.Tent != "") {
         var str = '<li><a href="' + settings.Tent + '"><i class="icon-heart"></i> Tent</a></li>';
-        ('#the_list').append(str);
+        $('#the_list').append(str);
     }
     if(settings.Twitter && settings.Twitter != "") {
         var str = '<li><a href="https://twitter.com/' + settings.Twitter + '"><i class="icon-twitter twitter"></i> Twitter: ' + settings.Twitter + '</a></li>';
