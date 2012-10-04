@@ -10,6 +10,8 @@ function generate_qr(){
 }
 
 function generate_items(){
+    if(settings.Tent && settings.Tent != "")
+        $('head').prepend('<link href="' + settings.Tent + '" rel="https://tent.io/rels/profile" />');
     var name = settings.FirstName + ' ' + settings.LastName;
     $(document).attr('title', name);
     $('.title>h1').append(name);
@@ -20,6 +22,10 @@ function generate_items(){
     if(settings.Email && settings.Email != "") {
         var str = '<li><a href="mailto:' + settings.FirstName + '%20' + settings.LastName + '&lt;' + settings.Email + '&gt;"><i class="icon-envelope-alt gmail"></i> ' + settings.Email + '</a></li>';
         $('#the_list').append(str);
+    }
+    if(settings.Tent && settings.Tent != "") {
+        var str = '<li><a href="' + settings.Tent + '"><i class="icon-heart"></i> Tent</a></li>';
+        ('#the_list').append(str);
     }
     if(settings.Twitter && settings.Twitter != "") {
         var str = '<li><a href="https://twitter.com/' + settings.Twitter + '"><i class="icon-twitter twitter"></i> Twitter: ' + settings.Twitter + '</a></li>';

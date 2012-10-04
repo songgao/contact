@@ -13,6 +13,7 @@ var settings = {
     Twitter:        '__songgao__',
     GitHub:         'songgao',
     GoogleAnalytics:'UA-33276203-1',
+    Tent:           'https://songgao.tent.is/profile',
     Items:          [
         {
             icon: 'icon-camera',
