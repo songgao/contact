@@ -1,9 +1,9 @@
 var settings = {
     FirstName:      'Song',
     LastName:       'Gao',
-    Email:          'song.gao.beta@gmail.com',
+    Email:          'song@gao.io',
     TEL:            '+1(650)200-0915',
-    URL:            'http://songgao.github.com/contact',
+    URL:            'http://song.gao.io/',
     Street_1:       '3101 Shelby Center',
     Street_2:       'Auburn University',
     City:           'Auburn',
@@ -12,31 +12,31 @@ var settings = {
     Country:        'United States',
     Twitter:        '__songgao__',
     GitHub:         'songgao',
-    GoogleAnalytics:'UA-33276203-1',
+    GoogleAnalytics:'UA-35062219-1',
     Items:          [
-        {
-            icon: 'icon-camera',
-            icon_color: '#a06a52;',
-            href: 'http://web.stagram.com/n/__songgao__/?vm=grid',
-            text: 'Instagram',
-        },
-        {
-            icon: 'icon-google-plus',
-            icon_color: '#dc4b39;',
-            href: 'https://plus.google.com/115891677639688078840/about',
-            text: 'Google Plus',
-        },
-        {
-            icon: 'icon-facebook',
-            icon_color: '#4c68a1;',
-            href: 'https://www.facebook.com/song.gao.beta',
-            text: 'Facebook',
-        },
-        {
-            icon: 'icon-linkedin',
-            icon_color: '#449ac8;',
-            href: 'https://www.linkedin.com/in/songgao',
-            text: 'LinkedIn',
-        },
+    {
+        icon: 'icon-camera',
+        icon_color: '#a06a52;',
+        href: 'http://web.stagram.com/n/__songgao__/?vm=grid',
+        text: 'Instagram',
+    },
+    {
+        icon: 'icon-google-plus',
+        icon_color: '#dc4b39;',
+        href: 'https://plus.google.com/117059279935561636925/about',
+        text: 'Google Plus',
+    },
+    {
+        icon: 'icon-facebook',
+        icon_color: '#4c68a1;',
+        href: 'https://www.facebook.com/song.gao.beta',
+        text: 'Facebook',
+    },
+    {
+        icon: 'icon-linkedin',
+        icon_color: '#449ac8;',
+        href: 'https://www.linkedin.com/in/songgao',
+        text: 'LinkedIn',
+    },
     ],
 };
