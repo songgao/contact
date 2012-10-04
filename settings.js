@@ -12,6 +12,7 @@ var settings = {
     Country:        'United States',
     Twitter:        '__songgao__',
     GitHub:         'songgao',
+    Tent:           'https://songgao.tent.is/profile',
     GoogleAnalytics:'UA-35062219-1',
     Items:          [
     {
