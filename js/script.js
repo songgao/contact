@@ -10,8 +10,6 @@ function generate_qr(){
 }
 
 function generate_items(){
-    if(settings.Tent && settings.Tent != "")
-        $('head').prepend('<link href="' + settings.Tent + '" rel="https://tent.io/rels/profile" />');
     var name = settings.FirstName + ' ' + settings.LastName;
     $(document).attr('title', name);
     $('.title>h1').append(name);
@@ -27,12 +25,16 @@ function generate_items(){
         var str = '<li><a href="' + settings.TentPage + '"><i class="icon-heart"></i> Tent</a></li>';
         $('#the_list').append(str);
     }
-    if(settings.Twitter && settings.Twitter != "") {
-        var str = '<li><a href="https://twitter.com/' + settings.Twitter + '"><i class="icon-twitter twitter"></i> Twitter: ' + settings.Twitter + '</a></li>';
-        $('#the_list').append(str);
-    }
     if(settings.GitHub && settings.GitHub != "") {
         var str = '<li><a href="https://github.com/' + settings.GitHub + '"><i class="icon-github-sign"></i> GitHub: ' + settings.GitHub + '</a></li>';
+        $('#the_list').append(str);
+    }
+    if(settings.Stackoverflow && settings.Stackoverflow != "") {
+        var str = '<li><a href="' + settings.Stackoverflow + '"><span class="icon-stackoverflow"></span>StackOverflow</a></li>';
+        $('#the_list').append(str);
+    }
+    if(settings.Twitter && settings.Twitter != "") {
+        var str = '<li><a href="https://twitter.com/' + settings.Twitter + '"><i class="icon-twitter twitter"></i> Twitter: ' + settings.Twitter + '</a></li>';
         $('#the_list').append(str);
     }
     for(var item_index in settings.Items) {

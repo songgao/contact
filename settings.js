@@ -15,6 +15,7 @@ var settings = {
     GoogleAnalytics:'UA-35062219-1',
     Tent:           'https://songgao.tent.is/tent/profile',
     TentPage:       'https://songgao.tent.is/profile',
+    Stackoverflow:  'http://stackoverflow.com/users/218439/song-gao',
     Items:          [
     {
         icon: 'icon-camera',
