@@ -30,7 +30,7 @@ function generate_items(){
         $('#the_list').append(str);
     }
     if(settings.Stackoverflow && settings.Stackoverflow != "") {
-        var str = '<li><a href="' + settings.Stackoverflow + '"><span class="icon-stackoverflow"></span>StackOverflow</a></li>';
+        var str = '<li><a href="' + settings.Stackoverflow + '"><span class="icon-stackoverflow"></span> StackOverflow</a></li>';
         $('#the_list').append(str);
     }
     if(settings.Twitter && settings.Twitter != "") {
