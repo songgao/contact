@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Song Gao</title>
         <link href="https://songgao.tent.is/tent/profile" rel="https://tent.io/rels/profile">
         <link rel='stylesheet' type='text/css' href='css/font-awesome.css' />
         <link rel='stylesheet' type='text/css' href='css/jquery.fancybox.css' />
@@ -9,29 +10,36 @@
         <script src='js/jquery-1.7.2.min.js' type='text/javascript'></script>
         <script src='js/jquery.fancybox.pack.js' type='text/javascript'></script>
         <script src='js/jquery.qrcode.min.js' type='text/javascript'></script>
-        <script src='settings.js' type='text/javascript'></script>
         <script src='js/script.js' type='text/javascript'></script>
 
         <script type="text/javascript">
-            if(settings.GoogleAnalytics && settings.GoogleAnalytics != "") {
-                var _gaq = _gaq || [];
-                _gaq.push(['_setAccount', settings.GoogleAnalytics]);
-                _gaq.push(['_trackPageview']);
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', "UA-35062219-1"]);
+            _gaq.push(['_trackPageview']);
 
-                (function() {
-                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-                 })();
-            }
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
         </script>
     </head>
     <body>
         <div id='content'>
-            <div class='title'><h1><i class="icon-user"></i> </h1></div>
+            <div class='title'><h1><i class="icon-user"></i> Song Gao</h1></div>
             <div id='qr-code'><a id='btn-qr' href='#qr' title='QR Code'><i class='icon-qrcode'></i></a></div>
             <div class='clear'></div>
-            <ul id='the_list'></ul>
+            <ul id="the_list">
+                <li><i class="icon-phone"></i> +1(650)200-0915</li>
+                <li><a href="mailto:song@gao.io"><i class="icon-envelope-alt gmail"></i> song@gao.io</a></li>
+                <li><a href="https://songgao.tent.is/profile"><i class="icon-heart"></i> Tent</a></li>
+                <li><a href="https://github.com/songgao"><i class="icon-github-sign"></i> GitHub: songgao</a></li>
+                <li><a href="http://stackoverflow.com/users/218439/song-gao"><span class="icon-stackoverflow"></span> StackOverflow</a></li>
+                <li><a href="https://twitter.com/__songgao__"><i class="icon-twitter twitter"></i> Twitter: __songgao__</a></li>
+                <li><a href="http://web.stagram.com/n/__songgao__/?vm=grid"><i class="icon-camera" style="color: #a06a52;"></i> Instagram</a></li>
+                <li><a href="https://plus.google.com/117059279935561636925/about"><i class="icon-google-plus" style="color: #dc4b39;"></i> Google Plus</a></li>
+                <li><a href="https://www.facebook.com/song.gao.beta"><i class="icon-facebook" style="color: #4c68a1;"></i> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/songgao"><i class="icon-linkedin" style="color: #449ac8;"></i> LinkedIn</a></li></ul>
         </div>
         <div id='qr'></div>
     </body>
