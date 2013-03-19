@@ -9,9 +9,17 @@ function generate_qr(){
     $('#qr').qrcode(str);
 }
 
+function load_resume() {
+}
+
 $(document).ready(function() {
     generate_qr();
+    load_resume();
     $('#btn-qr').fancybox({
+        openEffect : 'elastic',
+        closeEffect : 'elastic',
+    });
+    $('#btn-resume').fancybox({
         openEffect : 'elastic',
         closeEffect : 'elastic',
     });

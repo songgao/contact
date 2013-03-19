@@ -43,9 +43,8 @@ h1 {
     margin: 0px;
 }
 
-#qr {
-    display: none;
-}
+#qr { display: none; }
+#resume { display: none; }
 
 #the_list>li {
     list-style: none;
@@ -53,11 +52,27 @@ h1 {
     margin: 4px 0 4px 0;
 }
 
-#qr-code {
+.title_right {
     margin-top: 48px;
+    margin-left: 12px;
     float: right;
+}
+
+.title_right_icon {
     font-size: 32px;
 }
+
+.title_right_text {
+    padding-top: 14px;
+    font-size: 16px;
+}
+
+.title_right_line {
+    border-right-style: solid;
+    border-right-width: 2px;
+    height: 32px;
+}
+
 
 .gmail { color: #dc4b39; }
 .twitter { color: #00acee; }
@@ -66,4 +81,8 @@ h1 {
     background-size: 32px 32px;
     height: 32px;
     width: 32px;
+}
+
+iframe {
+    border: none
 }
