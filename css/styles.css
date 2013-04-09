@@ -74,8 +74,11 @@ h1 {
 }
 
 
+.blog { color: #4183c4; }
 .gmail { color: #dc4b39; }
+.irc { color: #73c27d; }
 .twitter { color: #00acee; }
+.instagram { color: #b4937f; }
 .icon-stackoverflow {
     background-image: url('http://stackoverflow.com/content/stackoverflow/img/apple-touch-icon.png');
     background-size: 32px 32px;
