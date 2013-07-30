@@ -80,7 +80,7 @@ h1 {
 .twitter { color: #00acee; }
 .instagram { color: #b4937f; }
 .icon-stackoverflow {
-    background-image: url('http://stackoverflow.com/content/stackoverflow/img/apple-touch-icon.png');
+    background-image: url('stackoverflow.png');
     background-size: 32px 32px;
     height: 32px;
     width: 32px;
